@@ -17,16 +17,15 @@ document.getElementById("shoe1").innerHTML = "Shoe: Clown";
 
 //2. Evil Grimmace
 //Find the div with the id of "last2" and replace 'Grimmmmmmace' with the 'Grimmace': 
-
+document.getElementById("last2").innerHTML = "Grimmace";
 
 
 //Find the div with the id of 'position2' and replace 'Point Guard' with 'Power Foward'
-
+document.getElementById("position2").innerHTML = "Power Forward";
 
 
 //Find the div id of 'nickName2' and replace 'aka:The Purple Monster' with 'The Poor Man's Barney'
-
-
+document.getElementById('nickName2').innerHTML = "aka: The Poor Man's Barney";
 
 
 //3. Mayor McCheese
