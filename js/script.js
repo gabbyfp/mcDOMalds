@@ -8,6 +8,7 @@ divElem.innerHTML = 'Ronald';
 
 
 //Find the div id of 'favFood1' and replace 'Favorite Food: Whoppers' with 'Favorite Food: Big Macs'
+document.getElementById("favFood1").innerHTML = "Favorite Food: Big Macs";
 
 
 //Find the div id of 'shoe1' and replace 'Shoe: n/a' with 'Shoe: Clown'
