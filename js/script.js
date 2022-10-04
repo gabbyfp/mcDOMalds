@@ -48,6 +48,12 @@ document.getElementById('shoe3').innerHTML = "Shoe: Li-Ning";
 //4.1 background color to 'red'
 //4.2 border style to 'solid'
 //4.3 border color to 'gold'
+let newPlayerCard = document.getElementsByClassName('playerCard');
+for (let i=0; i<newPlayerCard.length; i++){
+      newPlayerCard[i].style.background = 'red';
+      newPlayerCard[i].style.borderStyle = 'solid';
+      newPlayerCard[i].style.borderColor = 'gold';
+}
 
 
 
