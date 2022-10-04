@@ -31,15 +31,15 @@ document.getElementById('nickName2').innerHTML = "aka: The Poor Man's Barney";
 //3. Mayor McCheese
 
 //Find the div with the id of 'nickName3' and replace 'aka: Mister President' with 'aka: Da Mayah'
-
+document.getElementById('nickName3').innerHTML = "aka: Da Mayah";
 
 
 //Find the div with the id of 'favFood3' and replace 'Favorite Food: Kale Salad' with 'Favorite Food: Cheeseburgers';
-
+document.getElementById('favFood3').innerHTML = "Favorite Food: Cheeseburgers";
 
 
 //Find the div with the id of 'shoe3' and replace 'Shoe: Jordan Brand' with 'Shoe: Li-Ning'
-
+document.getElementById('shoe3').innerHTML = "Shoe: Li-Ning";
 
 
 
