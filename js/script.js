@@ -12,7 +12,7 @@ document.getElementById("favFood1").innerHTML = "Favorite Food: Big Macs";
 
 
 //Find the div id of 'shoe1' and replace 'Shoe: n/a' with 'Shoe: Clown'
-
+document.getElementById("shoe1").innerHTML = "Shoe: Clown";
 
 
 //2. Evil Grimmace
