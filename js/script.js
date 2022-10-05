@@ -136,7 +136,10 @@ playerBox[7].appendChild(newShoe);
       innerHTML of 'Head Scout'
       add this newly created div element to Birdie's player card
 */
-
+let birdPos = document.createElement('div');
+birdPos.id = 'position9';
+birdPos.innerHTML = 'Head Scout';
+playerBox[8].prepend(birdPos);
 
 
 /*7.2 Create a h1 element with:
@@ -144,6 +147,10 @@ playerBox[7].appendChild(newShoe);
     innerHTML of 'Early Bird'
     add this newly created h1 element to Birdie's player card
 */
+let birdLast = document.createElement('h1');
+birdLast.id = 'last9';
+birdLast.innerHTML = 'Early Bird';
+playerBox[8].prepend(birdLast);
 
 
 /*7.3 Create a h2 element with:
@@ -151,7 +158,10 @@ playerBox[7].appendChild(newShoe);
     innerHTML of 'Birdie the'
     add this newly created h2 element to Birdie's player card
 */
-
+let birdFirst = document.createElement('h2');
+birdFirst.id = 'first9';
+birdFirst.innerHTML = 'Birdie the';
+playerBox[8].prepend(birdFirst);
 
 
 /*7.4 Create a div element with:
@@ -159,7 +169,10 @@ playerBox[7].appendChild(newShoe);
       innerHTML of 'aka: ODB'
       add this newly created div element to Birdie's player card
 */
-
+let birdName = document.createElement('div');
+birdName.id = 'nickName9';
+birdName.innerHTML = 'aka: ODB';
+playerBox[8].appendChild(birdName);
 
 
 
@@ -168,8 +181,10 @@ playerBox[7].appendChild(newShoe);
       innerHTML of 'Favorite Food: The other white meat'
       add this newly created div element to Birdie's player card
 */
-
-
+let birdFood = document.createElement('div');
+birdFood.id = 'favFood9';
+birdFood.innerHTML = 'Favorite Food: The other white meat';
+playerBox[8].appendChild(birdFood);
 
 
 /*7.6 Create a div element with:
@@ -177,4 +192,7 @@ playerBox[7].appendChild(newShoe);
       innerHTML of 'Shoe: allbirds'
       add this newly created div element to Birdie's player card
 */
-
+let birdShoe = document.createElement('div');
+birdShoe.id = 'shoe9';
+birdShoe.innerHTML = 'Shoe: allbirds';
+playerBox[8].appendChild(birdShoe);
